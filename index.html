@@ -56,16 +56,16 @@
         <!-- start banner Area -->
         <section class="banner-area relative" id="home">
             <div class="fullscreen-video-bg">
-                <video autoplay loop muted poster="../img/header-bg.jpg">
-                  <source src="img/video/BhagalpurCity.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
+                <video id="cityVideo" autoplay loop muted poster="../img/header-bg.jpg">
+                    <source src="img/video/BhagalpurCity.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
                 </video>
             </div>
             <div class="container">
                 <div class="row fullscreen d-flex align-items-center justify-content-center">
                     <div class="banner-content col-lg-10">
                         <h5 class="text-uppercase">Be the part of this Wonderful Journey</h5>
-                        <h1>Bhagalpur: The Silk City!</h1>
+                        <h1>Bhagalpur : The Silk City</h1><br />
                         <a href="#portfolio" class="primary-btn text-uppercase">Explore Now</a>
                     </div>
                 </div>
@@ -73,11 +73,20 @@
         </section>
         <script>
             document.addEventListener('DOMContentLoaded', function() {
-              var video = document.querySelector('.fullscreen-video-bg video');
-              video.muted = true;
-              video.play();
+                var video = document.querySelector('.fullscreen-video-bg video');
+                video.muted = true;
+                video.play();
+        
+                const playDuration = 140; // specify the duration in seconds (2 minutes and 20 seconds)
+        
+                video.addEventListener('play', () => {
+                    setTimeout(() => {
+                        video.currentTime = 0;
+                        video.play();
+                    }, playDuration * 1000); // convert seconds to milliseconds
+                });
             });
-          </script>          
+        </script>          
         <!-- End banner Area -->
         <!-- Start portfolio-area Area -->
         <section class="portfolio-area section-gap" id="portfolio">
