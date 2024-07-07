@@ -55,7 +55,12 @@
         <!-- End Header Area -->
         <!-- start banner Area -->
         <section class="banner-area relative" id="home">
-            <div class="overlay overlay-bg"></div>
+            <div class="fullscreen-video-bg">
+                <video autoplay loop muted poster="../img/header-bg.jpg">
+                  <source src="img/video/BhagalpurCity.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+            </div>
             <div class="container">
                 <div class="row fullscreen d-flex align-items-center justify-content-center">
                     <div class="banner-content col-lg-10">
@@ -66,6 +71,13 @@
                 </div>
             </div>
         </section>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              var video = document.querySelector('.fullscreen-video-bg video');
+              video.muted = true;
+              video.play();
+            });
+          </script>          
         <!-- End banner Area -->
         <!-- Start portfolio-area Area -->
         <section class="portfolio-area section-gap" id="portfolio">
