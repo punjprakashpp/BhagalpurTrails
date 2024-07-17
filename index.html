@@ -55,12 +55,7 @@
         <!-- End Header Area -->
         <!-- start banner Area -->
         <section class="banner-area relative" id="home">
-            <div class="fullscreen-video-bg">
-                <video id="cityVideo" autoplay loop muted poster="../img/header-bg.jpg">
-                    <source src="img/video/BhagalpurCity.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
+            <div class="overlay overlay-bg"></div>
             <div class="container">
                 <div class="row fullscreen d-flex align-items-center justify-content-center">
                     <div class="banner-content col-lg-10">
@@ -71,22 +66,6 @@
                 </div>
             </div>
         </section>
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                var video = document.querySelector('.fullscreen-video-bg video');
-                video.muted = true;
-                video.play();
-        
-                const playDuration = 140; // specify the duration in seconds (2 minutes and 20 seconds)
-        
-                video.addEventListener('play', () => {
-                    setTimeout(() => {
-                        video.currentTime = 0;
-                        video.play();
-                    }, playDuration * 1000); // convert seconds to milliseconds
-                });
-            });
-        </script>          
         <!-- End banner Area -->
         <!-- Start portfolio-area Area -->
         <section class="portfolio-area section-gap" id="portfolio">
@@ -102,12 +81,12 @@
 
                 <div class="filters">
                     <ul>
-                        <li class="active" data-filter="*">All Places</li>                        
+                        <li class="active" data-filter="*">All Places</li>
                         <li data-filter=".monu">Monuments</li>
                         <li data-filter=".museum">Museum</li>
                         <li data-filter=".nature">Nature</li>
                         <li data-filter=".park">Parks</li>
-                        <li data-filter=".temple">Temples</li>                        
+                        <li data-filter=".temple">Temples</li>
                         <li data-filter=".other">Other</li>
                     </ul>
                 </div>
@@ -353,7 +332,7 @@
         </section>
         <!-- End portfolio-area Area -->
         <!-- Start service Area -->
-        <section class="service-area section-gap relative" id="service">
+        <section class="service-area service-area-gap relative" id="service">
             <div class="content">
                 <h1><span>Bhagalpur :</span> The Silk City</h1>
                 <div class="info">
@@ -436,4 +415,3 @@
     <script src="js/main.js"></script>
 </body>
 </html>
-
