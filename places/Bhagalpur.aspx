@@ -22,8 +22,8 @@
 
             <div class="col-md-8">
                 <br />
-                <a href="#lightbox" onclick="displayImage('img/ajgaibinath/ajgaibinath(11).png'); return false;">
-                    <img class="img-fluid" src="img/ajgaibinath/ajgaibinath(11).png" alt=""></a>
+                <a href="#lightbox" onclick="displayImage('img/bridge/setu(5).jpg'); return false;">
+                    <img class="img-fluid" src="img/bridge/setu(5).jpg" alt=""></a>
             </div>
 
             <div class="col-md-4">
@@ -39,14 +39,14 @@
 
             <div class="col-md-8">
                 <br />
-                <a href="#lightbox" onclick="displayImage('img/ajgaibinath/ajgaibinath(6).png'); return false;">
-                    <img class="img-fluid" src="img/ajgaibinath/ajgaibinath(6).png" alt=""></a>
+                <a href="#lightbox" onclick="displayImage('img/vikramshila/vikram(9).jpg'); return false;">
+                    <img class="img-fluid" src="img/vikramshila/vikram(9).jpg" alt=""></a>
             </div>
 
             <div class="col-md-8">
                 <br />
-                <a href="#lightbox" onclick="displayImage('img/ajgaibinath/ajgaibinath(2).png'); return false;">
-                    <img class="img-fluid" src="img/ajgaibinath/ajgaibinath(2).png" alt=""></a>
+                <a href="#lightbox" onclick="displayImage('img/vikramshila/vikram(3).jpg'); return false;">
+                    <img class="img-fluid" src="img/vikramshila/vikram(3).jpg" alt=""></a>
             </div>
 
             <div class="col-md-4">
@@ -80,8 +80,8 @@
 
             <div class="col-md-8">
                 <br />
-                <a href="#lightbox" onclick="displayImage('img/ajgaibinath/ajgaibinath(1).png'); return false;">
-                    <img class="img-fluid" src="img/ajgaibinath/ajgaibinath(1).png" alt=""></a>
+                <a href="#lightbox" onclick="displayImage('img/ravindrabhawan/rabindra(1).jpg'); return false;">
+                    <img class="img-fluid" src="img/ravindrabhawan/rabindra(1).jpg" alt=""></a>
             </div>
 
         </div>
@@ -99,38 +99,38 @@
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="#lightbox" onclick="displayImage('img/ajgaibinath/ajgaibinath(4).png'); return false;">
-                    <img class="img-fluid" src="img/ajgaibinath/ajgaibinath(4).png" alt="">
+                <a href="#lightbox" onclick="displayImage('img//budhanath/budhanath(11).jpg'); return false;">
+                    <img class="img-fluid" src="img//budhanath/budhanath(11).jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="#lightbox" onclick="displayImage('img/ajgaibinath/ajgaibinath(5).png'); return false;">
-                    <img class="img-fluid" src="img/ajgaibinath/ajgaibinath(5).png" alt="">
+                <a href="#lightbox" onclick="displayImage('img//ghantaghar/ghantaghar(8).jpg'); return false;">
+                    <img class="img-fluid" src="img//ghantaghar/ghantaghar(8).jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="#lightbox" onclick="displayImage('img/ajgaibinath/ajgaibinath(12).png'); return false;">
-                    <img class="img-fluid" src="img/ajgaibinath/ajgaibinath(12).png" alt="">
+                <a href="#lightbox" onclick="displayImage('img/lajpatpark/lajpat(15).jpg'); return false;">
+                    <img class="img-fluid" src="img/lajpatpark/lajpat(15).jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="#lightbox" onclick="displayImage('img/ajgaibinath/ajgaibinath(7).png'); return false;">
-                    <img class="img-fluid" src="img/ajgaibinath/ajgaibinath(7).png" alt="">
+                <a href="#lightbox" onclick="displayImage('img/dolphin/dolphin(17).jpg'); return false;">
+                    <img class="img-fluid" src="img/dolphin/dolphin(17).jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="#lightbox" onclick="displayImage('img/ajgaibinath/ajgaibinath(8).png'); return false;">
-                    <img class="img-fluid" src="img/ajgaibinath/ajgaibinath(8).png" alt="">
+                <a href="#lightbox" onclick="displayImage('img/vmuseum/museum(6).jpg'); return false;">
+                    <img class="img-fluid" src="img/vmuseum/museum(6).jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="#lightbox" onclick="displayImage('img/ajgaibinath/ajgaibinath(9).png'); return false;">
-                    <img class="img-fluid" src="img/ajgaibinath/ajgaibinath(9).png" alt="">
+                <a href="#lightbox" onclick="displayImage('img/sandyscompond/sandy(12).jpg'); return false;">
+                    <img class="img-fluid" src="img/sandyscompond/sandy(12).jpg" alt="">
                 </a>
             </div>
 
